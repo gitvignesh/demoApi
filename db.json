@@ -336,5 +336,94 @@
             }
          ]
       }
+   ],
+   "log_book":[
+      {
+         "log_id":1,
+         "asset_name":"Metering Cubicle",
+         "asset_id":111,
+         "document_name":"Shift Supervisor Daily Log Book",
+         "document_id":1,
+         "entries":[
+            {
+               "date":1635715200000,
+               "values":{
+                  "Clean Equipment":true,
+                  "Check Voltage":false,
+                  "Review Logs":true,
+                  "Monitor Temperature":false,
+                  "Record Observations":true
+               }
+            },
+            {
+               "date":1635801600000,
+               "values":{
+                  "Clean Equipment":false,
+                  "Check Voltage":true,
+                  "Review Logs":false,
+                  "Monitor Temperature":true,
+                  "Record Observations":false
+               }
+            }
+         ]
+      },
+      {
+         "log_id":2,
+         "asset_name":"LT room exhaust unit - 1",
+         "asset_id":222,
+         "document_name":"Landscaping Daily Log Book",
+         "document_id":2,
+         "entries":[
+            {
+               "date":1635715200000,
+               "values":{
+                  "Trim Bushes":true,
+                  "Mow Lawn":true,
+                  "Plant Flowers":false,
+                  "Water Plants":false,
+                  "Remove Weeds":true
+               }
+            },
+            {
+               "date":1635801600000,
+               "values":{
+                  "Trim Bushes":false,
+                  "Mow Lawn":true,
+                  "Plant Flowers":false,
+                  "Water Plants":true,
+                  "Remove Weeds":true
+               }
+            }
+         ]
+      },
+      {
+         "log_id":3,
+         "asset_name":"LT room exhaust unit - 2",
+         "asset_id":333,
+         "document_name":"Another Daily Log Book",
+         "document_id":5,
+         "entries":[
+            {
+               "date":1635715200000,
+               "values":{
+                  "Inspect Machinery":true,
+                  "Check Alarms":false,
+                  "Review Maintenance Schedule":true,
+                  "Monitor Energy Usage":false,
+                  "Record Maintenance Activities":true
+               }
+            },
+            {
+               "date":1635801600000,
+               "values":{
+                  "Inspect Machinery":false,
+                  "Check Alarms":true,
+                  "Review Maintenance Schedule":false,
+                  "Monitor Energy Usage":true,
+                  "Record Maintenance Activities":false
+               }
+            }
+         ]
+      }
    ]
 }
