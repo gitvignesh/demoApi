@@ -7,7 +7,7 @@
          "description":"HT Energy meter reading",
          "asset_code":"ΝΑ",
          "meter_id":4444,
-         "track_id":456,
+         "asset_id":111,
          "owner":"John Doe",
          "status":"Operational",
          "capacity":"1000 KVA",
@@ -30,7 +30,7 @@
          "description":"DG Readings",
          "asset_code":"BA ET 1A 2 00 HV VF 381",
          "meter_id":5555,
-         "track_id":123,
+         "asset_id":222,
          "owner":"Jane Smith",
          "status":"Operational",
          "capacity":"500 CFM",
@@ -53,7 +53,7 @@
          "description":"DG Readings",
          "asset_code":"BA ET 1A 0 00 EE DG 002",
          "meter_id":6666,
-         "track_id":789,
+         "asset_id":333,
          "owner":"Mark Brown",
          "status":"Under Maintenance",
          "capacity":"2000 KVA",
@@ -76,7 +76,7 @@
          "description":"DG Readings",
          "asset_code":"BA ET 1A 2 00 HV VF 382",
          "meter_id":7777,
-         "track_id":456,
+         "asset_id":444,
          "owner":"Emily White",
          "status":"Operational",
          "capacity":"600 CFM",
@@ -99,7 +99,7 @@
          "description":"DG Readings",
          "asset_code":"BA ET 1A 0 00 EE DG 003",
          "meter_id":8888,
-         "track_id":321,
+         "asset_id":555,
          "owner":"Sarah Johnson",
          "status":"Operational",
          "capacity":"1500 KVA",
@@ -122,7 +122,7 @@
          "description":"DG Readings",
          "asset_code":"BA ET 1A 2 00 HV VF 383",
          "meter_id":9999,
-         "track_id":654,
+         "asset_id":666,
          "owner":"Michael Lee",
          "status":"Operational",
          "capacity":"700 CFM",
@@ -186,7 +186,7 @@
          "name":"IMSP 22 F61",
          "doc_id":1,
          "type":"daily_checklist",
-         "description":"Shift Supervisor Daily Log Book",
+         "description":"Shift Supervisor Daily checklist",
          "values":[
             "Inspect Equipment",
             "Check Temperature",
@@ -245,6 +245,95 @@
             "Check Fluid Levels",
             "Test Backup Systems",
             "Record Maintenance Notes"
+         ]
+      }
+   ],
+   "daily_checklist":[
+      {
+         "checklist_id":1,
+         "asset_name":"Metering Cubicle",
+         "asset_id":111,
+         "document_name":"Shift Supervisor Daily check list",
+         "document_id":1,
+         "readings":[
+            {
+               "date":1635715200000,
+               "values":{
+                  "Inspect Equipment": true,
+                  "Check Temperature": false,
+                  "Review Logs": true,
+                  "Monitor Pressure": false,
+                  "Record Observations": true
+               }
+            },
+            {
+               "date":1635801600000,
+               "values":{
+                  "Inspect Equipment": false,
+                  "Check Temperature": true,
+                  "Review Logs": false,
+                  "Monitor Pressure": true,
+                  "Record Observations": false
+               }
+            }
+         ]
+      },
+      {
+         "checklist_id":2,
+         "asset_name":"LT room exhaust unit - 1",
+         "asset_id":222,
+         "document_name":"Sample Daily Checklist",
+         "document_id":3,
+         "readings":[
+            {
+               "date":1635715200000,
+               "values":{
+                  "Check Inventory": true,
+                  "Test Systems": false,
+                  "Review Reports": true,
+                  "Inspect Safety Equipment": true,
+                  "Record Incidents": false
+               }
+            },
+            {
+               "date":1635801600000,
+               "values":{
+                  "Check Inventory": true,
+                  "Test Systems": true,
+                  "Review Reports": false,
+                  "Inspect Safety Equipment": false,
+                  "Record Incidents": true
+               }
+            }
+         ]
+      },
+      {
+         "checklist_id":3,
+         "asset_name":"LT room exhaust unit - 2",
+         "asset_id":333,
+         "document_name":"Another Daily Checklist",
+         "document_id":4,
+         "readings":[
+            {
+               "date":1635715200000,
+               "values":{
+                  "Inspect Machinery": true,
+                  "Check Alarms": false,
+                  "Review Maintenance Schedule": true,
+                  "Monitor Energy Usage": false,
+                  "Record Maintenance Activities": true
+               }
+            },
+            {
+               "date":1635801600000,
+               "values":{
+                  "Inspect Machinery": false,
+                  "Check Alarms": true,
+                  "Review Maintenance Schedule": false,
+                  "Monitor Energy Usage": true,
+                  "Record Maintenance Activities": false
+               }
+            }
          ]
       }
    ]
