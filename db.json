@@ -91,52 +91,6 @@
          "installation_date":"2021-07-25",
          "installed_by":"David Wilson",
          "remarks":"This is a fully operational unit."
-      },
-      {
-         "block_building":"Common Area",
-         "location":"DG Yard",
-         "asset_name":"DG - 03",
-         "description":"DG Readings",
-         "asset_code":"BA ET 1A 0 00 EE DG 003",
-         "meter_id":8888,
-         "asset_id":555,
-         "owner":"Sarah Johnson",
-         "status":"Operational",
-         "capacity":"1500 KVA",
-         "make":"PQR Generators",
-         "model":"DG-1500",
-         "serial_number":"SN999999",
-         "warranty_upto":"2024-06-30",
-         "year_of_installation":2022,
-         "qty":1,
-         "oem":"PQR Generators",
-         "manufacturing_year":2021,
-         "installation_date":"2022-03-15",
-         "installed_by":"Laura Davis",
-         "remarks":"This asset is in good condition."
-      },
-      {
-         "block_building":"Tower 04",
-         "location":"LT room",
-         "asset_name":"LT room exhaust unit - 3",
-         "description":"DG Readings",
-         "asset_code":"BA ET 1A 2 00 HV VF 383",
-         "meter_id":9999,
-         "asset_id":666,
-         "owner":"Michael Lee",
-         "status":"Operational",
-         "capacity":"700 CFM",
-         "make":"RST Systems",
-         "model":"LT-300",
-         "serial_number":"SN333333",
-         "warranty_upto":"2023-12-15",
-         "year_of_installation":2020,
-         "qty":1,
-         "oem":"RST Systems",
-         "manufacturing_year":2019,
-         "installation_date":"2020-09-20",
-         "installed_by":"Karen Brown",
-         "remarks":"This asset provides efficient ventilation."
       }
    ],
    "readings":[
@@ -169,16 +123,6 @@
          "final_reading_kvah":220.0,
          "pf":0.92,
          "md_reading":70.0
-      },
-      {
-         "id":4,
-         "meter_id":5555,
-         "date":1633920000000,
-         "meter_constant":1.0,
-         "final_reading_kwh":210.0,
-         "final_reading_kvah":230.0,
-         "pf":0.91,
-         "md_reading":75.0
       }
    ],
    "documents":[
@@ -224,19 +168,6 @@
       {
          "name":"Document 4",
          "doc_id":4,
-         "type":"daily_checklist",
-         "description":"Another Daily Checklist",
-         "values":[
-            "Inspect Machinery",
-            "Check Alarms",
-            "Review Maintenance Schedule",
-            "Monitor Energy Usage",
-            "Record Maintenance Activities"
-         ]
-      },
-      {
-         "name":"Document 5",
-         "doc_id":5,
          "type":"log_book",
          "description":"Weekly Maintenance Log",
          "values":[
@@ -253,7 +184,7 @@
          "checklist_id":1,
          "asset_name":"Metering Cubicle",
          "asset_id":111,
-         "document_name":"Shift Supervisor Daily check list",
+         "document_name":"Shift Supervisor Daily checklist",
          "document_id":1,
          "entries":[
             {
@@ -306,121 +237,43 @@
                }
             }
          ]
-      },
-      {
-         "checklist_id":3,
-         "asset_name":"LT room exhaust unit - 2",
-         "asset_id":333,
-         "document_name":"Another Daily Checklist",
-         "document_id":4,
-         "entries":[
-            {
-               "date":1635715200000,
-               "values":{
-                  "Inspect Machinery":true,
-                  "Check Alarms":false,
-                  "Review Maintenance Schedule":true,
-                  "Monitor Energy Usage":false,
-                  "Record Maintenance Activities":true
-               }
-            },
-            {
-               "date":1635801600000,
-               "values":{
-                  "Inspect Machinery":false,
-                  "Check Alarms":true,
-                  "Review Maintenance Schedule":false,
-                  "Monitor Energy Usage":true,
-                  "Record Maintenance Activities":false
-               }
-            }
-         ]
       }
    ],
    "log_book":[
       {
          "log_id":1,
-         "asset_name":"Metering Cubicle",
-         "asset_id":111,
-         "document_name":"Shift Supervisor Daily Log Book",
-         "document_id":1,
-         "entries":[
-            {
-               "date":1635715200000,
-               "values":{
-                  "Clean Equipment":true,
-                  "Check Voltage":false,
-                  "Review Logs":true,
-                  "Monitor Temperature":false,
-                  "Record Observations":true
-               }
-            },
-            {
-               "date":1635801600000,
-               "values":{
-                  "Clean Equipment":false,
-                  "Check Voltage":true,
-                  "Review Logs":false,
-                  "Monitor Temperature":true,
-                  "Record Observations":false
-               }
-            }
-         ]
-      },
-      {
-         "log_id":2,
-         "asset_name":"LT room exhaust unit - 1",
-         "asset_id":222,
-         "document_name":"Landscaping Daily Log Book",
+         "asset_name":"LT room exhaust unit - 2",
+         "asset_id":444,
+         "document_name":"Landscaping Daily log book",
          "document_id":2,
          "entries":[
             {
                "date":1635715200000,
                "values":{
                   "Trim Bushes":true,
-                  "Mow Lawn":true,
-                  "Plant Flowers":false,
+                  "Mow Lawn":false,
+                  "Plant Flowers":true,
                   "Water Plants":false,
-                  "Remove Weeds":true
-               }
-            },
-            {
-               "date":1635801600000,
-               "values":{
-                  "Trim Bushes":false,
-                  "Mow Lawn":true,
-                  "Plant Flowers":false,
-                  "Water Plants":true,
                   "Remove Weeds":true
                }
             }
          ]
       },
       {
-         "log_id":3,
-         "asset_name":"LT room exhaust unit - 2",
+         "log_id":2,
+         "asset_name":"DG - 02",
          "asset_id":333,
-         "document_name":"Another Daily Log Book",
-         "document_id":5,
+         "document_name":"Document 4",
+         "document_id":4,
          "entries":[
             {
                "date":1635715200000,
                "values":{
-                  "Inspect Machinery":true,
-                  "Check Alarms":false,
-                  "Review Maintenance Schedule":true,
-                  "Monitor Energy Usage":false,
-                  "Record Maintenance Activities":true
-               }
-            },
-            {
-               "date":1635801600000,
-               "values":{
-                  "Inspect Machinery":false,
-                  "Check Alarms":true,
-                  "Review Maintenance Schedule":false,
-                  "Monitor Energy Usage":true,
-                  "Record Maintenance Activities":false
+                  "Clean Filters":true,
+                  "Inspect Wiring":false,
+                  "Check Fluid Levels":true,
+                  "Test Backup Systems":false,
+                  "Record Maintenance Notes":true
                }
             }
          ]
