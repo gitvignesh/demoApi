@@ -255,7 +255,7 @@
          "asset_id":111,
          "document_name":"Shift Supervisor Daily check list",
          "document_id":1,
-         "readings":[
+         "entries":[
             {
                "date":1635715200000,
                "values":{
@@ -284,7 +284,7 @@
          "asset_id":222,
          "document_name":"Sample Daily Checklist",
          "document_id":3,
-         "readings":[
+         "entries":[
             {
                "date":1635715200000,
                "values":{
@@ -313,7 +313,7 @@
          "asset_id":333,
          "document_name":"Another Daily Checklist",
          "document_id":4,
-         "readings":[
+         "entries":[
             {
                "date":1635715200000,
                "values":{
