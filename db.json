@@ -259,21 +259,21 @@
             {
                "date":1635715200000,
                "values":{
-                  "Inspect Equipment": true,
-                  "Check Temperature": false,
-                  "Review Logs": true,
-                  "Monitor Pressure": false,
-                  "Record Observations": true
+                  "Inspect Equipment":true,
+                  "Check Temperature":false,
+                  "Review Logs":true,
+                  "Monitor Pressure":false,
+                  "Record Observations":true
                }
             },
             {
                "date":1635801600000,
                "values":{
-                  "Inspect Equipment": false,
-                  "Check Temperature": true,
-                  "Review Logs": false,
-                  "Monitor Pressure": true,
-                  "Record Observations": false
+                  "Inspect Equipment":false,
+                  "Check Temperature":true,
+                  "Review Logs":false,
+                  "Monitor Pressure":true,
+                  "Record Observations":false
                }
             }
          ]
@@ -288,21 +288,21 @@
             {
                "date":1635715200000,
                "values":{
-                  "Check Inventory": true,
-                  "Test Systems": false,
-                  "Review Reports": true,
-                  "Inspect Safety Equipment": true,
-                  "Record Incidents": false
+                  "Check Inventory":true,
+                  "Test Systems":false,
+                  "Review Reports":true,
+                  "Inspect Safety Equipment":true,
+                  "Record Incidents":false
                }
             },
             {
                "date":1635801600000,
                "values":{
-                  "Check Inventory": true,
-                  "Test Systems": true,
-                  "Review Reports": false,
-                  "Inspect Safety Equipment": false,
-                  "Record Incidents": true
+                  "Check Inventory":true,
+                  "Test Systems":true,
+                  "Review Reports":false,
+                  "Inspect Safety Equipment":false,
+                  "Record Incidents":true
                }
             }
          ]
@@ -317,21 +317,21 @@
             {
                "date":1635715200000,
                "values":{
-                  "Inspect Machinery": true,
-                  "Check Alarms": false,
-                  "Review Maintenance Schedule": true,
-                  "Monitor Energy Usage": false,
-                  "Record Maintenance Activities": true
+                  "Inspect Machinery":true,
+                  "Check Alarms":false,
+                  "Review Maintenance Schedule":true,
+                  "Monitor Energy Usage":false,
+                  "Record Maintenance Activities":true
                }
             },
             {
                "date":1635801600000,
                "values":{
-                  "Inspect Machinery": false,
-                  "Check Alarms": true,
-                  "Review Maintenance Schedule": false,
-                  "Monitor Energy Usage": true,
-                  "Record Maintenance Activities": false
+                  "Inspect Machinery":false,
+                  "Check Alarms":true,
+                  "Review Maintenance Schedule":false,
+                  "Monitor Energy Usage":true,
+                  "Record Maintenance Activities":false
                }
             }
          ]
