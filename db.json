@@ -1,64 +1,100 @@
 {
-    "assets": [
-        {
-            "block_building": "Common Area",
-            "room_location": "Transformer yard",
-            "asset_name": "Metering Cubicle",
-            "description": "HT Energy meter reading",
-            "asset_code": "ΝΑ",
-            "meeter_id": 4444,
-            "track_id": 456
-        },
-        {
-            "block_building": "Tower 02",
-            "room_location": "Tower - 2 , LT room",
-            "asset_name": "LT room exhaust unit - 1",
-            "description": "DG Readings",
-            "asset_code": "BA ET 1A 2 00 HV VF 381",
-            "meeter_id": 5555,
-            "track_id": 123
-        }
-    ],
-    "readings": [
-        {
-            "id": 1,
-            "meter_id": 4444,
-            "date": 1633833600000,
-            "meter_constant": 1.0,
-            "final_reading_kwh": 100.0,
-            "final_reading_kvah": 120.0,
-            "pf": 0.95,
-            "md_reading": 50.0
-        },
-        {
-            "id": 2,
-            "meter_id": 4444,
-            "date": 1633920000000,
-            "meter_constant": 1.0,
-            "final_reading_kwh": 110.0,
-            "final_reading_kvah": 130.0,
-            "pf": 0.96,
-            "md_reading": 55.0
-        },
-        {
-            "id": 3,
-            "meter_id": 5555,
-            "date": 1633833600000,
-            "meter_constant": 1.0,
-            "final_reading_kwh": 200.0,
-            "final_reading_kvah": 220.0,
-            "pf": 0.92,
-            "md_reading": 70.0
-        },
-        {
-            "id": 4,
-            "meter_id": 5555,
-            "date": 1633920000000,
-            "meter_constant": 1.0,
-            "final_reading_kwh": 210.0,
-            "final_reading_kvah": 230.0,
-            "pf": 0.91,
-            "md_reading": 75.0
-        }
-    ]
+   "assets":[
+      {
+         "block_building":"Common Area",
+         "room_location":"Transformer yard",
+         "asset_name":"Metering Cubicle",
+         "description":"HT Energy meter reading",
+         "asset_code":"ΝΑ",
+         "meeter_id":4444,
+         "track_id":456
+      },
+      {
+         "block_building":"Tower 02",
+         "room_location":"Tower - 2 , LT room",
+         "asset_name":"LT room exhaust unit - 1",
+         "description":"DG Readings",
+         "asset_code":"BA ET 1A 2 00 HV VF 381",
+         "meeter_id":5555,
+         "track_id":123
+      },
+      {
+         "block_building":"Common Area",
+         "room_location":"DG Yard",
+         "asset_name":"DG - 02",
+         "description":"DG Readings",
+         "asset_code":"BA ET 1A 0 00 EE DG 002",
+         "meeter_id":6666,
+         "track_id":789
+      },
+      {
+         "block_building":"Tower 03",
+         "room_location":"Tower - 3 , LT room",
+         "asset_name":"LT room exhaust unit - 2",
+         "description":"DG Readings",
+         "asset_code":"BA ET 1A 2 00 HV VF 382",
+         "meeter_id":7777,
+         "track_id":456
+      },
+      {
+         "block_building":"Common Area",
+         "room_location":"DG Yard",
+         "asset_name":"DG - 03",
+         "description":"DG Readings",
+         "asset_code":"BA ET 1A 0 00 EE DG 003",
+         "meeter_id":8888,
+         "track_id":321
+      },
+      {
+         "block_building":"Tower 04",
+         "room_location":"Tower - 4 , LT room",
+         "asset_name":"LT room exhaust unit - 3",
+         "description":"DG Readings",
+         "asset_code":"BA ET 1A 2 00 HV VF 383",
+         "meeter_id":9999,
+         "track_id":654
+      }
+   ],
+   "readings":[
+      {
+         "id":1,
+         "meter_id":4444,
+         "date":1633833600000,
+         "meter_constant":1.0,
+         "final_reading_kwh":100.0,
+         "final_reading_kvah":120.0,
+         "pf":0.95,
+         "md_reading":50.0
+      },
+      {
+         "id":2,
+         "meter_id":4444,
+         "date":1633920000000,
+         "meter_constant":1.0,
+         "final_reading_kwh":110.0,
+         "final_reading_kvah":130.0,
+         "pf":0.96,
+         "md_reading":55.0
+      },
+      {
+         "id":3,
+         "meter_id":5555,
+         "date":1633833600000,
+         "meter_constant":1.0,
+         "final_reading_kwh":200.0,
+         "final_reading_kvah":220.0,
+         "pf":0.92,
+         "md_reading":70.0
+      },
+      {
+         "id":4,
+         "meter_id":5555,
+         "date":1633920000000,
+         "meter_constant":1.0,
+         "final_reading_kwh":210.0,
+         "final_reading_kvah":230.0,
+         "pf":0.91,
+         "md_reading":75.0
+      }
+   ]
 }
