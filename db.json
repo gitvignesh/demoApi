@@ -1,4 +1,9 @@
 {
+   "test":[
+      {
+         "name": "TEST Name"
+      }
+   ],
    "assets":[
       {
          "block_building":"Common Area",
