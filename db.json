@@ -1,7 +1,7 @@
 {
    "test":[
       {
-         "name": "TEST Name"
+         "name_key": "TEST Name"
       }
    ],
    "assets":[
