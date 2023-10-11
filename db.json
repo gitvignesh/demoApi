@@ -1,9 +1,4 @@
 {
-   "test":[
-      {
-         "name_key": "TEST Name"
-      }
-   ],
    "assets":[
       {
          "block_building":"Common Area",
